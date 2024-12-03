@@ -12,6 +12,6 @@ const phonebook = {
     Max: '+380582067180'
 };
 
-const findPhoneByName = (name) => return phonebook[name];
+const findPhoneByName = (name) => phonebook[name];
 
 module.exports = { phonebook, findPhoneByName };
